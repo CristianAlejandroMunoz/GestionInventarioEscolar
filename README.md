@@ -26,6 +26,16 @@ Aplicacion web desarrollada con Django para la gestión de equipos tecnológicos
 4. Iniciar el servidor:
    python manage.py runserver
 
+## Comando para la creación de super usuario
+
+   python manage.py createsuperuser
+
+Configuraciones establecidas de super usuario:
+
+   user: admin
+   email: admin@email.com
+   pass: admin
+
 Funciones
 * Registro y gestión de equipos desde la administración.
 * Personalización del panel admin.
